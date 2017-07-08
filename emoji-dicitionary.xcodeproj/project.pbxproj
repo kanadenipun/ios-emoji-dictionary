@@ -13,6 +13,7 @@
 		E6C1B0D51F10E9BB00470D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6C1B0D41F10E9BB00470D3A /* Assets.xcassets */; };
 		E6C1B0D81F10E9BB00470D3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C1B0D61F10E9BB00470D3A /* LaunchScreen.storyboard */; };
 		E6C1B0E31F10E9BB00470D3A /* emoji_dicitionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C1B0E21F10E9BB00470D3A /* emoji_dicitionaryTests.swift */; };
+		E6C1B0EE1F11036B00470D3A /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C1B0ED1F11036B00470D3A /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E6C1B0DE1F10E9BB00470D3A /* emoji-dicitionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "emoji-dicitionaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C1B0E21F10E9BB00470D3A /* emoji_dicitionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emoji_dicitionaryTests.swift; sourceTree = "<group>"; };
 		E6C1B0E41F10E9BB00470D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6C1B0ED1F11036B00470D3A /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				E6C1B0CD1F10E9BB00470D3A /* AppDelegate.swift */,
 				E6C1B0CF1F10E9BB00470D3A /* ViewController.swift */,
+				E6C1B0ED1F11036B00470D3A /* DefinitionViewController.swift */,
 				E6C1B0D11F10E9BB00470D3A /* Main.storyboard */,
 				E6C1B0D41F10E9BB00470D3A /* Assets.xcassets */,
 				E6C1B0D61F10E9BB00470D3A /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6C1B0D01F10E9BB00470D3A /* ViewController.swift in Sources */,
+				E6C1B0EE1F11036B00470D3A /* DefinitionViewController.swift in Sources */,
 				E6C1B0CE1F10E9BB00470D3A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
